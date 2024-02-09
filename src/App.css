@@ -70,3 +70,22 @@ main {
 .roll-dice:active {
   box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
 }
+
+.dots {
+  display: grid;
+  grid-template: auto auto / repeat(3, 1fr);
+  gap: 6px;
+  margin-bottom: 2px;
+}
+
+.dot {
+  height: 10px; 
+  width: 10px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: rgb(222, 178, 17);
+  border-radius: 4px;
+}
+
